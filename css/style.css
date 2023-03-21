@@ -2,8 +2,10 @@
   box-sizing: border-box;
 }
 body {
-  margin: 20px;
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../images/universe.jpg");
+  background-size: cover;
 }
 
 .portrait-img {
@@ -21,4 +23,18 @@ body {
   background-color: #fcbf49;
   border-bottom: 7px solid #d62828;
   border-radius: 5px;
+}
+/* For space exploration project */
+.space-main {
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #fff;
 }
